@@ -28,4 +28,6 @@ fs.createReadStream("kepler_data.csv")
         return planet["kepler_name"]
     }))
 })
- 
+  
+
+// parse only deals with stream dat why we need our fs (node modules)
